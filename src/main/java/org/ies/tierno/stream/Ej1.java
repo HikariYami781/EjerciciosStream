@@ -8,5 +8,7 @@ public class Ej1 {
      mostrando en pantalla cada elemento.
      */
 
+    public static void main(String[] args) {
 
+    }
 }
