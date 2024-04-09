@@ -6,4 +6,8 @@ public class Ej10 {
     que busca el máximo de los números en
     la lista. Si la lista está vacía devuelve null.
      */
+
+    public static void main(String[] args) {
+
+    }
 }

@@ -9,4 +9,8 @@ que dada una lista de estudiantes y un código postal,
  devuelva una lista con los estudiantes que vivan en ese
   código postal
      */
+
+    public static void main(String[] args) {
+
+    }
 }

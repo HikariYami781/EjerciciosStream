@@ -7,4 +7,8 @@ Un método sum(List<Double> numbers )
 que calcula la suma de los números en
  la lista, si la lista está vacía devuelve 0.
      */
+
+    public static void main(String[] args) {
+
+    }
 }

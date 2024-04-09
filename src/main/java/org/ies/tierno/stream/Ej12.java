@@ -7,4 +7,8 @@ public class Ej12 {
     de números, devuelve los números que están tanto
      numbers1 como en numbers2
      */
+
+    public static void main(String[] args) {
+
+    }
 }

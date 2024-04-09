@@ -26,7 +26,8 @@ mapToEmails(List<Student> students)
 
     }
     public static List<String> mapToEmails(List<Student> students) {
-        return students.stream()  //convierte la lista en Stream
+        return students
+                .stream()  //convierte la lista en Stream
                 .map(Student::getEmail) // Obtener el email de cada estudiante
                 .collect(Collectors.toList()); // Recolectar los emails en una nueva lista
     }

@@ -23,7 +23,8 @@ public class Ej3 {
     }
 
     public static Integer last(List<Integer> list){
-        return list.stream()
+        return list
+                .stream()
                 .reduce((first,second)->second) //Reducir la lista al ultimo elemento
                 .orElse(null);  //En caso de que este vacía
     }

@@ -7,4 +7,8 @@ public class Ej7 {
       otra lista con los números pares que
       había en numbers
      */
+
+    public static void main(String[] args) {
+
+    }
 }

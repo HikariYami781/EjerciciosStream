@@ -21,8 +21,9 @@ public class Ej1 {
         listaS.add("Es");
         listaS.add("Paula");
 
-        Stream<String> stream=listaS.stream();  //Convertimos la lista en Stream
-        stream.forEach(System.out::println); //Recorremos la lista
+        listaS
+                .stream()  //Convertimos la lista en Stream
+                .forEach(System.out::println); //Recorremos la lista
 
     }
 }

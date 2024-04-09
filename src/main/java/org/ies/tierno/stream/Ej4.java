@@ -20,7 +20,8 @@ Un método sum10(List<Integer> numbers)
     }
 
     public  static List<Integer> sum10(List<Integer> numbers){
-        return numbers.stream()
+        return numbers
+                .stream()
                 .map(num->num+10) //sumar 10 a cada elemento
                 .collect(Collectors.toList()); //Ponemos los resultados en una nueva lista
     }

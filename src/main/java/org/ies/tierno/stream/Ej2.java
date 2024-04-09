@@ -17,7 +17,8 @@ Escribe un método first(List<Integer> list)
     }
 
     public static Integer first(List<Integer> list){
-        return list.stream()
+        return list
+                .stream()
                 .findFirst() //Busca el primer elemento del Stream
                 .orElse(null); //Devuelve null si esta vacio
     }
