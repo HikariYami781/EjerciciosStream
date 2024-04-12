@@ -1,5 +1,6 @@
 package org.ies.tierno.stream;
 
+import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -20,9 +21,7 @@ public class Ej12 {
 
     }
     public static List<Double> junction(List<Double> numbers1, List<Double> numbers2) {
-        Set<Double> set1 = numbers1
-                .stream()
-                .collect(Collectors.toSet()); // Convertir la primera lista a un conjunto
+        Set<Double> set1 = new HashSet<>(numbers1); // Convertir la primera lista a un conjunto
 
         return numbers2
                 .stream()
